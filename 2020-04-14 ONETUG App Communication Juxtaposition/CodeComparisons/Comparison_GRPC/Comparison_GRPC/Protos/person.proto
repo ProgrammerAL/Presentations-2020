@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "Comparison_GRPC";
+
+package person;
+
+service Peopler {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc GetPerson (FindPersonRequest) returns (Person);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}
+
+message FindPersonRequest {
+  int32 id = 1;
+}
+
+enum EmailType {
+    Promotional = 0;
+    HappyBirthday = 1;
+    AccountCreationAnniversary = 2;
+}
+
+message Setting {
+ string name = 1;
+ string value = 2;
+}
+
+message Person {
+ int32 id = 1;
+ string firstName = 2;
+ string lastName = 3;
+ string emailAddress = 4;
+ repeated EmailType allowedEmailTypes = 5;
+ repeated int32 familyMemberIds = 6;
+ repeated Setting preferences = 7;
+}
