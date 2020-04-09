@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Service", "Comparison_SignalR_Service\Comparison_SignalR_Service.csproj", "{F2E7E6FB-9367-42EC-95BE-190C00A571DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Client", "Comparison_SignalR_Client\Comparison_SignalR_Client.csproj", "{CB65C550-9B3D-4563-BEEB-42CE569A4064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E7E6FB-9367-42EC-95BE-190C00A571DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E7E6FB-9367-42EC-95BE-190C00A571DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E7E6FB-9367-42EC-95BE-190C00A571DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E7E6FB-9367-42EC-95BE-190C00A571DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB65C550-9B3D-4563-BEEB-42CE569A4064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB65C550-9B3D-4563-BEEB-42CE569A4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB65C550-9B3D-4563-BEEB-42CE569A4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB65C550-9B3D-4563-BEEB-42CE569A4064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC1C48AF-0124-4AFA-A244-40C596779C6B}
+	EndGlobalSection
+EndGlobal
