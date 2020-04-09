@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_GRPC_Service", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_GRPC_Client", "Comparison_GRPC_Client\Comparison_GRPC_Client.csproj", "{AEBB660A-FE3B-4F09-880A-C73E81392677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_GRPC_Display", "Comparison_GRPC_Display\Comparison_GRPC_Display.csproj", "{007DCBE9-31BC-49A4-9922-F5B9F8110E52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_GRPC_Display", "Comparison_GRPC_Display\Comparison_GRPC_Display.csproj", "{007DCBE9-31BC-49A4-9922-F5B9F8110E52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server-Client", "Server-Client", "{A2AA3CCB-09BF-413F-9A66-3988ABBC6DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Display", "Display", "{90AB00C9-DD53-4B90-8820-F9DF01DA6BFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DECA0199-4A05-423C-8813-3CD0781CAA95} = {A2AA3CCB-09BF-413F-9A66-3988ABBC6DFD}
+		{AEBB660A-FE3B-4F09-880A-C73E81392677} = {A2AA3CCB-09BF-413F-9A66-3988ABBC6DFD}
+		{007DCBE9-31BC-49A4-9922-F5B9F8110E52} = {90AB00C9-DD53-4B90-8820-F9DF01DA6BFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3918CF66-EC44-42DF-837E-2A5B21DF5261}

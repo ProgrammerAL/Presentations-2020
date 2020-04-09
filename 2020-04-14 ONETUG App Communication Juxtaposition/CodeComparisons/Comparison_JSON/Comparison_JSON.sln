@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_JSON_Display", "Comparison_JSON\Comparison_JSON_Display.csproj", "{2F17FAB2-D586-4BC4-9CCB-16830F42186F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_JSON_Display", "Comparison_JSON_Display\Comparison_JSON_Display.csproj", "{2F17FAB2-D586-4BC4-9CCB-16830F42186F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_JSON_Service", "Comparison_JSON_Service\Comparison_JSON_Service.csproj", "{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_JSON_Service", "Comparison_JSON_Service\Comparison_JSON_Service.csproj", "{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_JSON_Client", "Comparison_JSON_Client\Comparison_JSON_Client.csproj", "{E2572434-3917-4757-9481-8354C4F280D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_JSON_Client", "Comparison_JSON_Client\Comparison_JSON_Client.csproj", "{E2572434-3917-4757-9481-8354C4F280D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server-Client", "Server-Client", "{A434692E-CF2A-4B67-9626-177C870EE474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Display", "Display", "{BA36518B-2D89-4FDD-B372-0E7FED22036F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F17FAB2-D586-4BC4-9CCB-16830F42186F} = {BA36518B-2D89-4FDD-B372-0E7FED22036F}
+		{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB} = {A434692E-CF2A-4B67-9626-177C870EE474}
+		{E2572434-3917-4757-9481-8354C4F280D0} = {A434692E-CF2A-4B67-9626-177C870EE474}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6892EBDE-6A25-478C-9D34-C41A6BA284A5}
