@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_JSON_Display", "Comparison_JSON\Comparison_JSON_Display.csproj", "{2F17FAB2-D586-4BC4-9CCB-16830F42186F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_JSON_Service", "Comparison_JSON_Service\Comparison_JSON_Service.csproj", "{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_JSON_Client", "Comparison_JSON_Client\Comparison_JSON_Client.csproj", "{E2572434-3917-4757-9481-8354C4F280D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2F17FAB2-D586-4BC4-9CCB-16830F42186F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F17FAB2-D586-4BC4-9CCB-16830F42186F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F17FAB2-D586-4BC4-9CCB-16830F42186F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DD73BE-CA2F-4D3C-AE9C-2928FE311CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2572434-3917-4757-9481-8354C4F280D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2572434-3917-4757-9481-8354C4F280D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2572434-3917-4757-9481-8354C4F280D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2572434-3917-4757-9481-8354C4F280D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

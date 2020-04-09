@@ -10,21 +10,19 @@ namespace Comparison_GRPC_Client
     {
         static async Task Main()
         {
-            while (true)
-            {
-                Console.WriteLine("Current Process Id: " + Process.GetCurrentProcess().Id);
-                Console.WriteLine("Press Enter to begin...");
-                _ = Console.ReadLine();
+            Console.WriteLine("Press Enter to begin...");
+            _ = Console.ReadLine();
 
-                var channel = GrpcChannel.ForAddress("https://localhost:5001");
-                var client = new Peopler.PeoplerClient(channel);
+            var channel = GrpcChannel.ForAddress("https://localhost:5001");
+            var client = new Peopler.PeoplerClient(channel);
 
-                var helloResponse = await client.SayHelloAsync(new HelloRequest() { Name = "Homer" });
-                Console.WriteLine(helloResponse.Message);
+            var helloResponse = await client.SayHelloAsync(new HelloRequest() { Name = "Homer" });
+            Console.WriteLine(helloResponse.Message);
 
-                var findPersonResponse = await client.GetPersonAsync(new FindPersonRequest() { Id = 1 });
-                Console.WriteLine(findPersonResponse.FirstName);
-            }
+            var findPersonResponse = await client.GetPersonAsync(new FindPersonRequest() { Id = 1 });
+            Console.WriteLine(findPersonResponse.Id + " " + findPersonResponse.FirstName + " " + findPersonResponse.LastName);
+
+            _ = Console.ReadLine();
         }
     }
 }

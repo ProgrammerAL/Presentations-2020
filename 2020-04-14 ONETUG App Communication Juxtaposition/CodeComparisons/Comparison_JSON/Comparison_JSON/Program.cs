@@ -7,7 +7,7 @@ namespace Comparison_JSON
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var person = GenerateStandardPerson();
             var newtonsoftSerialized = Newtonsoft.Json.JsonConvert.SerializeObject(person);
