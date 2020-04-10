@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Comparison_JSON_Service;
 
 namespace Comparison_JSON_Service.Controllers
 {

@@ -12,8 +12,11 @@ namespace Comparison_JSON
             var person = GenerateStandardPerson();
             var newtonsoftSerialized = Newtonsoft.Json.JsonConvert.SerializeObject(person);
             var netCoreSerialized = System.Text.Json.JsonSerializer.Serialize(person);
-            Console.WriteLine("Newtonsoft and .NET Core Serialized The Same: " + newtonsoftSerialized == netCoreSerialized);//True
-            Console.WriteLine("Serialized Length: " + newtonsoftSerialized.Length);//323 characters
+            Console.WriteLine("Serialized JSON:");
+            Console.WriteLine(netCoreSerialized);
+            Console.WriteLine("Newtonsoft and .NET Core Serialized The Same: " + newtonsoftSerialized == netCoreSerialized);//False
+            Console.WriteLine("Serialized Length JSON.NET: " + newtonsoftSerialized.Length);//323 characters
+            Console.WriteLine("Serialized Length System.Text.JSON: " + netCoreSerialized.Length);//323 characters
 
             var jsonBytes = Encoding.UTF8.GetBytes(newtonsoftSerialized);
             byte[] compressedBytes;
