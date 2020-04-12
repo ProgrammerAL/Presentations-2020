@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Comparison_SignalR_Client
+namespace Comparison_SignalR_Shared
 {
     public interface IPeopleHubClient
     {

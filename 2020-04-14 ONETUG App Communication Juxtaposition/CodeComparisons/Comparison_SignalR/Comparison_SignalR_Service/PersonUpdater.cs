@@ -1,4 +1,5 @@
 ﻿using Comparison_SignalR_Service.Hubs;
+using Comparison_SignalR_Shared;
 using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;

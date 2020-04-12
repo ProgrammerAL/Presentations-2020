@@ -2,6 +2,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
+using Comparison_SignalR_Shared;
 
 namespace Comparison_SignalR_Client
 {
@@ -25,6 +26,10 @@ namespace Comparison_SignalR_Client
 
 
             var receiverDisposable = connection.On<Person>(nameof(IPeopleHubClient.ReceiveUpdatedPerson), ReceiveUpdatedPerson);
+
+            //var helloResult = await connection.InvokeAsync<string>("SayHello", arg1: "Homer");
+            var helloResult = await connection.InvokeAsync<string>(nameof(IPeopleHubServer.SayHello), arg1: "Homer");
+            Console.WriteLine("HelloResult: " + helloResult);
 
             while (true)
             {

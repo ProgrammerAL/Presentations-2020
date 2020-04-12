@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Service", "Comparison_SignalR_Service\Comparison_SignalR_Service.csproj", "{F2E7E6FB-9367-42EC-95BE-190C00A571DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_SignalR_Service", "Comparison_SignalR_Service\Comparison_SignalR_Service.csproj", "{F2E7E6FB-9367-42EC-95BE-190C00A571DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Client", "Comparison_SignalR_Client\Comparison_SignalR_Client.csproj", "{CB65C550-9B3D-4563-BEEB-42CE569A4064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_SignalR_Client", "Comparison_SignalR_Client\Comparison_SignalR_Client.csproj", "{CB65C550-9B3D-4563-BEEB-42CE569A4064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Display", "Comparison_SignalR_Display\Comparison_SignalR_Display.csproj", "{0EFD17F8-7CD2-4099-856A-1273B59D7275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comparison_SignalR_Display", "Comparison_SignalR_Display\Comparison_SignalR_Display.csproj", "{0EFD17F8-7CD2-4099-856A-1273B59D7275}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server-Client", "Server-Client", "{3A3E2EFE-5096-4BF8-BDD0-AA15A1C23417}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Display", "Display", "{00A3F3A1-12A1-4ECA-901E-C316AFF87778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison_SignalR_Shared", "Comparison_SignalR_Shared\Comparison_SignalR_Shared.csproj", "{31FE6A53-9AB9-4FCB-A444-A69D15D8944C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{0EFD17F8-7CD2-4099-856A-1273B59D7275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EFD17F8-7CD2-4099-856A-1273B59D7275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EFD17F8-7CD2-4099-856A-1273B59D7275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FE6A53-9AB9-4FCB-A444-A69D15D8944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FE6A53-9AB9-4FCB-A444-A69D15D8944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FE6A53-9AB9-4FCB-A444-A69D15D8944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FE6A53-9AB9-4FCB-A444-A69D15D8944C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{F2E7E6FB-9367-42EC-95BE-190C00A571DB} = {3A3E2EFE-5096-4BF8-BDD0-AA15A1C23417}
 		{CB65C550-9B3D-4563-BEEB-42CE569A4064} = {3A3E2EFE-5096-4BF8-BDD0-AA15A1C23417}
 		{0EFD17F8-7CD2-4099-856A-1273B59D7275} = {00A3F3A1-12A1-4ECA-901E-C316AFF87778}
+		{31FE6A53-9AB9-4FCB-A444-A69D15D8944C} = {3A3E2EFE-5096-4BF8-BDD0-AA15A1C23417}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC1C48AF-0124-4AFA-A244-40C596779C6B}

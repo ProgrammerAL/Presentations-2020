@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Comparison_SignalR_Client
+namespace Comparison_SignalR_Shared
 {
     public class Person
     {
