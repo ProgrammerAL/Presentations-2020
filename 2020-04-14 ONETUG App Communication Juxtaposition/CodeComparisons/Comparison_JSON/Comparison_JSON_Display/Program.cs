@@ -37,6 +37,8 @@ namespace Comparison_JSON
             }
 
             Console.WriteLine("Compressed Length: " + compressedBytes.Length);//244 bytes
+
+            _ = Console.ReadLine();
         }
 
 

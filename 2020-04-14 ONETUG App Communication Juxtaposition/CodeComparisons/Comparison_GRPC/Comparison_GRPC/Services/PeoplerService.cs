@@ -10,12 +10,6 @@ namespace Comparison_GRPC
 {
     public class PeoplerService : Peopler.PeoplerBase
     {
-        private readonly ILogger<PeoplerService> _logger;
-        public PeoplerService(ILogger<PeoplerService> logger)
-        {
-            _logger = logger;
-        }
-
         public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
             return Task.FromResult(new HelloReply

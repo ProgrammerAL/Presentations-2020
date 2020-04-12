@@ -16,6 +16,8 @@ namespace Comparison_GRPC_Display
             Console.WriteLine(string.Join(", ", serializedPerson));
             Console.WriteLine();
             Console.WriteLine("Bytes Count: " + serializedPerson.Length);//161 bytes
+
+            _ = Console.ReadLine();
         }
 
         private static Person GenerateStandardPerson()

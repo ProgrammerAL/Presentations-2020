@@ -21,6 +21,8 @@ namespace Comparison_SignalR_Display
             Console.WriteLine(string.Join(", ", serializedPerson));
             Console.WriteLine();
             Console.WriteLine("Bytes Count: " + serializedPerson.Length);//172 bytes
+
+            _ = Console.ReadLine();
         }
 
         public static Person GenerateStandardPerson()

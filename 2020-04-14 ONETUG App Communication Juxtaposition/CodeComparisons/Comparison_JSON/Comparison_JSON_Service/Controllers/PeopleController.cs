@@ -11,13 +11,6 @@ namespace Comparison_JSON_Service.Controllers
     [Route("[controller]")]
     public class PeopleController : ControllerBase
     {
-        private readonly ILogger<PeopleController> _logger;
-
-        public PeopleController(ILogger<PeopleController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet("Hello")]
         public Task<string> GetHello(string name)
         {
